@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* CSS Document */
+ *{ border: 1px solid red; }
+/* Nav Bar */
+.NavBar {
+	width: 100%;
+	margin-top: 10px;
+	z-index: 2;
+	position: fixed;
+	
+}
+.NavBar a{
+	float:right;
+	margin-right: 45px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #1C190F;
+}
+.Menu {
+	padding-top: 0px;
+	margin-right:75px;
+}
+.Menu a:hover{
+	border-bottom: 2px solid currentColor;
+}
+.NavLogo a:hover{
+	border-bottom: 0px;
+}
+.NavLogo {
+	text-align: left;
+	float:left;
+	margin-left: 75px;
+	margin-top: 13px;
+	border-bottom: 0px;
+	background-attachment: fixed;
+}
+
+
+
+.main {
+	margin-top: 150px;
+	margin-left: 75px;
+	font-family: 'Open Sans', Sans-Serif;
+	color: #1C190F;
+	font-size: 45pt;
+	letter-spacing: 1px;
+	z-index: 4;
+	position: fixed;
+	top: 75px;
+}
+.backgroundimg {
+	width: 100%;
+    height: 50px;
+	background-image: url(paris-rooftops-scene-01.jpg);
+    background-size: contain;
+	background-attachment: fixed;
+	z-index:1;
+	position: fixed;
+	margin: -10px -10px -10px -10px;
+}
+
+
+
+
+
+table {
+	margin-top: 150px;
+	width:100%;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-family: 'Open Sans', 'sans serif';
+	background-color: white;
+	box-shadow: 0px 0px 7px #888888;
+	color: #1C190F;
+	padding-top: 60px;
+	height: 1200;
+	padding-bottom: 500px;
+	z-index: 5;
+	position: absolute;
+	top: 400px;
+	margin-left: -10px;
+		
+}
+th {
+	font-family: 'Open Sans', 'sans serif';
+	font-weight: bold;
+	padding-top: 10px;
+	width: auto;
+	text-align: left;
+	font-size: 22pt;
+}
+td {
+	font-family: 'Open Sans', 'sans serif';
+	height: 100px;
+	width: 250px;
+	font-size: 11pt;
+	vertical-align: top;
+	text-indent: 0px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+ul {
+	width: 200px;
+	font-family: 'Open Sans', 'sans serif';
+	font-weight: bold;
+	font-size: 16pt;
+	float:right;
+	margin-right: 0px;
+	margin-top: 0px;
+	height: 100%;
+	background-color:#1C190F;
+	color:white;
+	padding-top:20px;
+	padding-left: 20px;
+}
+ul a:hover{
+	border-bottom: 2px solid currentColor;
+}
+	
+li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Open Sans', 'sans serif';
+	font-weight: normal;
+	font-size: 12pt;
+	padding-left: 10pt;
+}
+li a {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color:white;
+}
+
+
+
+
+.footer {
+	height: 100px;
+	width: 100%;
+	background-color: #1C190F;
+	position: fixed;
+	display: block;
+}
