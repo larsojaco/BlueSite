@@ -1,5 +1,7 @@
+*{ border: 1px solid red; }
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans';
+	font-weight: bold;
 }
 h1{
 	font-size:24px;
@@ -9,23 +11,28 @@ h1{
 .landing{
 	width: 100%;
 	height: 100vh;
-	background-color: blue;
+	background-color: #1C190F;
+}
+.landing a:hover{
+		border-bottom: 2px solid currentColor;
 }
 .landinglinks{
 	width: 100%;
-	top:400px;
+	top:600px;
 	text-align:center;
-	position:relative;
+	position:fixed;
 	
 }
 .landinglinks a{
-	top:600px;
-	padding-right:100px;
-	color:white !important;
+	float: center;
+	margin-right: 45px;
 	text-decoration: none;
-}
-.landinglinks a:hover{
-	text-decoration:underline;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 14pt;
+	margin: 0px 10% 0px 10%;
+	
 }
 
 .mainbar {
