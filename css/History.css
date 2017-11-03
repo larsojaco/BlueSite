@@ -1,10 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
- {
-    border: 1px solid red;
-}
-* {
-    box-sizing: border-box;
+ {border: 1px solid red}
+*{box-sizing: border-box;
 }
 
 /* Mobile */
@@ -16,7 +13,75 @@
 }
 /*NavBar*/
 .navbar {
+	width: 100%;
+	position: fixed;
+	top: 0;
+
+}
+.navbar a {
+	text-decoration: none;
+	color: #1C190F;
 	
+}
+.home a {
+	text-decoration: none;
+	color: white;
+}
+.home-rectangle {
+	width: 20%;
+	height: 40px;
+	background-color: #1C190F;
+	float: left;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+	font-size: 9pt;
+	line-height: 40px;
+	text-align: center
+}
+.nav-rectangle-1 {
+	width: 20%;
+	height: 40px;
+	background-color: #0b55a6;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+	font-size: 9pt;
+	line-height: 40px;
+	text-align: center;
+}
+.nav-rectangle-2 {
+	width: 20%;
+	height: 40px;
+	background-color: #53a4f5;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+	font-size: 9pt;
+	line-height: 40px;
+	text-align: center;
+}
+.nav-rectangle-3 {
+	width: 20%;
+	height: 40px;
+	background-color: #0f3194;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+	font-size: 9pt;
+	line-height: 40px;
+	text-align: center;
+}
+.nav-rectangle-4 {
+	width: 20%;
+	height: 40px;
+	background-color: #1d50dd;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+	font-size: 9pt;
+	line-height: 40px;
+	text-align: center;
 }
 .menu {
 	visibility: hidden;
@@ -29,6 +94,7 @@
     background-image: url(paris-rooftops-scene-01.jpg);
     position: relative;
     float: left;
+	padding-top: 40px;
 }
 img {
     width: 100%;
@@ -54,15 +120,18 @@ img {
     position: absolute;
     padding: 0px 0% 0px 0%;
 }
+.row {
+	padding-top: 40px;
+}
 .subtitle {
 	font-family:'Open Sans', Sans-serif;
 	font-weight: bold;
 	font-size:20pt; 
-	color: #111E55;
+	color: #0b55a6;
 	
 }
 .subtitle-border {
-	border-bottom: 4px solid #111E55;
+	border-bottom: 4px solid #0b55a6;
 	padding: 2%;
 }
 .p1 {
@@ -72,8 +141,6 @@ img {
 	font-size: 11pt;
 	color: #1C190F;
 }
-
-
 
 
 
@@ -147,6 +214,7 @@ img {
     padding: 10px;
 }
 .menu a {
+	visibility: visible;
     float: right;
     padding: 0px 1% 0px 1%;
     font-family: 'Open Sans', sans-serif;
