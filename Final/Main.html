@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Color Blue</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Informational research on the color blue">
+<meta name="author" content="Richard Roth, Jacob Larson">
+<link rel="stylesheet" href="css/main.css">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<style type="text/css"> </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+window.smoothScroll = function(target) {
+    var scrollContainer = target;
+    do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+    } while (scrollContainer.scrollTop == 0);
+    var targetY = 0;
+    do { //find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+    } while (target = target.offsetParent);
+    scroll = function(c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function(){ scroll(c, a, b, i); }, 20);
+    }
+    // start scrolling
+    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+}
+</script>
+
+	</head>
+
+<body style="margin:0">
+<div class="wrapper">
+<div class="landing">
+	<div class="title">
+	<div class="letters"><a href="History.html"><div id="l1"><img src="assets/B.png"></div><div id="l11"><div class="mainlinks"> History</div></div></a>	</div>
+	<div class="letters"><a href="Nature.html"><div id="l2"><img src="assets/L.png"></div><div id="l22"><div class="mainlinks">Nature</div></div></a></div>
+	<div class="letters"><a href="Art.html"><div id="l3"><img src="assets/U.png"></div><div id="l33"><div class="mainlinks">Art</div></div></a>	</div>
+	<div class="letters"><a href="Psychology.html"><div id="l4"><img src="assets/E.png"></div><div id="l44"><div class="mainlinks">Psychology</div></div></a>	</div>
+		
+	</div>	
+	<div class="buttoncontainer"><button  type="button" onclick="smoothScroll(document.getElementById('content'))" id="myBtn">About Blue</button></div>
+	</div>
+	<div id="footholder">
+  <div id="content">
+		<div class="row">
+			
+			<div class="col-12"><h1>What is the color Blue?</h1></div>
+			
+			<div class="col-12">Blue is the favorite color of all people. It’s nature’s color for water and sky,
+			but is rarely found in fruits and vegetables. Today, blue is embraced as the color of heaven and 
+			authority, denim jeans and corporate logos. It is cold, wet, and slow as compared to red’s warmth,
+			fire, and intensity. Blue has more complex and contradictory meanings than any other color. These
+			can be easily explained by pinpointing by the specific shade of blue. </div>
+			
+			<div class="col-8"><h2>Why is it important</h2>	It reduces stress, creating a sense of calmness,
+			relaxation and order - we certainly feel a sense of calm if we lie on our backs and look into a 
+			bright blue cloudless sky. It slows the metabolism. The paler the blue the more freedom we feel.
+			In the meaning of colors, blue relates to one-to-one communication, especially communication using the voice 
+			- speaking the truth through verbal self-expression - it is the teacher, the public speaker.
+			The color blue is idealistic, enhancing self-expression and our ability to communicate our needs 
+			and wants. It inspires higher ideals.</br></br>
+	<img src="assets/mainimg01.jpg"></div>	<div class="col-3"><h2>Blue Facts</h2>	1. Studies show weight-lifters are able to handle heavier weights in
+blue gyms.</br></br>
+2. In ancient Rome, blue was worn by the public servants, which
+marked the beginning of the idea for today’s police uniforms.
+</br></br>3. In factories, blue often marks equipment to be repaired.
+</br></br>4. Blue is associated with air mail and the navy.
+</br></br>5. A survey has shown blue to be the best-selling colour in women’s
+sweaters because women think men like it.
+</div>
+
+		</div><div class="footer">
+			<div class="footer-top"></div>
+			<div class="footer-bottom">
+				<div class="footer-info">
+					<div class="1"><a href="Copyright.html">About</a></div>
+					<div class="1"><a href="Copyright.html">COPYRIGHT © 2017</a></div>
+					<div class="1"><a href="Copyright.html">Privacy Policy</a></div>
+				</div>
+			</div>
+		</div>
+		</div><bottom style="margin:0;">
+		</div><div class="footer">
+			<div class="footer-top"></div>
+			<div class="footer-bottom">
+				<div class="footer-info">
+					<div class="1"><a href="Copyright.html">About</a></div>
+					<div class="1"><a href="Copyright.html">COPYRIGHT © 2017</a></div>
+					<div class="1"><a href="Copyright.html">Privacy Policy</a></div>
+				</div>
+			</div>
+		</div></bottom>
+
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		</div>
+
+</body>
+</html>
