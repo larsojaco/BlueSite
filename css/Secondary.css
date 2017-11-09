@@ -128,7 +128,7 @@
 	background-color: white;
 	box-shadow: 0px -1px 2px black;
 	margin-top: 45%;
-	padding-bottom: 100px;
+	padding-bottom: 150px;
 }
 .subtitle-1 {
 	font-family:'Open Sans', Sans-serif;
@@ -151,6 +151,7 @@
 	font-family: 'Open Sans', Sans-serif;
 	font-size: 12pt;
 	color: #1C190F;
+	padding: 20px 0px;
 }
 img {
 	width: 100%;
@@ -201,9 +202,10 @@ img {
   	background-color: #1d50dd;
   	color: white;
   	cursor: pointer;
-  	padding: 20px 40px 20px 40px;
+  	padding: 15px 30px 15px 30px;
   	border-radius: 2px;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
 	
 }
 #myBtn:hover {
